@@ -1,0 +1,130 @@
+nav{
+    background-color:#f2f2f2;
+}
+.nigeria{
+    width: 90px;
+}
+.location_container{
+    background: linear-gradient(to right,#FFEB55,#FFF4B5);
+    padding: 20px !important;
+}
+.sit{
+    color: white !important;
+
+}
+.dhl_img{
+    /* margin: 0 170px !important; */
+    text-align: center;
+    
+}
+.Track li a{
+    text-decoration: none;
+}
+.Track{
+    list-style-type:none ;
+    color: black !important;
+    /* margin: 0 170px !important; */
+}
+.Track:hover{
+    text-decoration: underline;
+    color: red !important;
+}
+.track_container{
+    background-color:#FEFBF6;
+}
+.signature_image{
+    position: relative;
+}
+.number{
+        position: absolute;
+        top:200px;
+        left: 430px;
+}
+.Shipment{
+    font-size: 30px !important;
+    font-family: sans-serif  !important;
+}
+.tracking{
+    width: 35vw;
+    outline: none;
+    padding:  10px;
+
+}
+.card_content{
+    border: 1px solid white;
+    background-color:ghostwhite;
+   padding:  0 21px; 
+
+    
+}
+.Card_container{
+    justify-content: center;
+    position:relative !important;
+    margin: -30px !important;
+
+}
+.card:hover{
+    /* box-shadow: 0 100px !important; */
+    /* transition: 0.3 ease; */
+}
+.border{
+    border-bottom: 1px solid black;
+    width: 5vw;
+    
+}
+.Available{
+        /* background-color: lavender; */
+}
+.possible{
+    display:flex;
+}
+
+
+  
+
+
+/* =================responsiveness================= */
+@media(max-width:576px){
+    nav{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .signature_image{
+        height: 30vh !important;
+
+    }
+    .span_container{
+        display: flex;
+        margin: 0 30px !important;
+    }
+     .card_container{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px !important;
+    }
+    .Track{
+        margin: 0;
+    }
+    .Shipment{
+        
+    }
+    .btn{
+        width: 2px;
+        margin-right: 20px !important;
+    }
+}
+@media(maxwidth:768px){
+    .Shipment{
+        margin:0  200px !important;
+    }
+   .btn {
+        /* margin-right: 2px !important; */
+        /* width: 2px; */
+    }  
+    .tracking{
+        width: 50vw;
+
+    }
+
+    }
+  
